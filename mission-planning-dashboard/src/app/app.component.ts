@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mission-planning-dashboard';
+  title = 'Mission-Planning-Dashboard';
+  missionName: string ='Mars 2030';
+  carrierRocket: string = 'Plasma Max';
 }
