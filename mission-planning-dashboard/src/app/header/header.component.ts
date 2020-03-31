@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   missionName: string ='Mars 2030';
   carrierRocket: string = 'Plasma Max';
-  Crew: string[] = ["Jessica Watkins", "Raja Chari", "Jasmin Moghbeli"]
   
   constructor() { }
 
